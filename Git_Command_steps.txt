@@ -1,0 +1,14 @@
+Create the account in Git
+Create a local path.
+Initiate git in local path:-Open cmd prompt in the local path and create a git intial by command 'git init'.A .git file will becreated nin local path.
+Add the remote reposotiry link to above folder- cmd 'git remote add origin "<Link from git website>"'
+pull from remote master:- 'git pull origin master'
+create new file in local repository
+Add this new unchecked file to local repository by cmd 'git add <name of file>'
+							if want to add all new uncheked files cmd '<git add -A>'		
+Now can check the status by cmd 'git status'
+Commit this above added file to local repository by cmd '<git commit -m <message for commit>'
+							if want to commit all new checked file '<got commit -a -m "comment for commit">'
+cmd '<git log>' shows all log of the folder.
+
+
