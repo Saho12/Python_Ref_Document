@@ -1,6 +1,7 @@
 Create the account in Git
 Create a local path.
-Initiate git in local path:-Open cmd prompt in the local path and create a git intial by command 'git init'.A .git file will becreated nin local path.
+Step-1:- Right click and GIT bash here in the path where you want your local path
+Initiate git in local path:-Open cmd prompt in the local path and create a git intial by command 'git init'. A (.git) file will becreated your local path.
 Add the remote reposotiry link to above folder- cmd 'git remote add origin "<Link from git website>"'
 pull from remote master:- 'git pull origin master'
 create new file in local repository
