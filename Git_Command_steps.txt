@@ -9,6 +9,7 @@ Add this new unchecked file to local repository by cmd 'git add <name of file>'
 Now can check the status by cmd 'git status'
 Commit this above added file to local repository by cmd '<git commit -m <message for commit>'
 							if want to commit all new checked file '<got commit -a -m "comment for commit">'
-cmd '<git log>' shows all log of the folder.
+cmd '<git log>' shows all log of the folder 
+        na         .
 
 
