@@ -14,3 +14,93 @@ cmd '<git log>' shows all log of the folder
         na         .
 
 
+
+~ Notes from Corey Scahafer
+------------------------------
+
+git --version
+
+git config --global user.name
+git config --global user.email
+git config --list
+
+git config --help     % config -> is action for which help is requested
+
+git init  	% intialize git in a folder
+
+rm -rf .git 	% remove .git to stop tracking
+ls -la
+
+git  status
+type nul >.gitignore	% to create git ignore file- enter all the files to be ignored by git
+
+git add <file name>
+git add -A
+
+git reset <file name> 	%remove a file from git add
+git reset 	%remove all at a time
+
+git commit -m "<comment>"
+git log
+
+
+
+git clone <url> <where to clone>
+git clone <url> . 	%clone to current directory
+
+git remote -v 	%information about remote repository
+git branch -a 	% list of all branches in local and remote repository
+
+How to change and commmit to remote repository 
+----------------------------------------------
+
+git dif
+git status
+git add -A
+git commit -m "comment"
+
+Now to push
+-----------
+git pull origin master	 % to match master to remote to get latest update from master
+git push origin master
+
+
+How to work with branching using git
+-------------------------------------
+git branch <name of branch>
+git branch 	%list of all branch in local
+git checkout <newly cretaed brach> % now can change in this local branch
+
+git add -A 
+git commit -m "comment" 	% commited to local new brach, here it has no effect to local or remote repository
+
+
+After commit push to remote repository
+--------------------------------------
+git push -u origin <new branch> 	% push to remote new branch, not to remote master
+git branch -a
+
+
+Merge new branch to remote master
+----------------------------------
+git checkout master 	% switch to local master branch
+git pull origin master	% to up to date the local master with remote master
+git branch --merged	% gives info about which branches are merged so far to master
+git merge <name of new brach to be merged> % merge local new branch to local master
+git push origin master	% chnages are pushed to master branch of remote repository.
+
+
+Delete the new branch
+---------------------------
+
+git branch --merged	% check the new brach is merged to master
+git branch -d <branch name> 	% delete the local new branch 
+git branch -a	% check all current branches
+git push origin --delete <branch name> % delete remote new brach
+git branch -a 	% check the final branches left with
+
+
+
+
+
+
